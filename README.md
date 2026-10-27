@@ -1,8 +1,16 @@
-# CS 7331 Phishing URL Classification
+# Phishing URL Classification
 
 Semester project for **CS 7331 – Data Mining** (SMU, Fall 2026, Prof. Xia Luo). Project Team 5: **Daniel Oni** and **Safia Khan**.
 
 Trains and compares five supervised classifiers on the UCI Phishing Websites dataset to detect phishing URLs. Each classifier is evaluated on two feature sets (full 30 features / no-external-lookups 25 features) with and without SMOTEN oversampling, hyperparameter-tuned with 5-fold stratified CV on F1.
+
+## Contributors
+
+**Daniel Oni** — Project proposal (joint); Section 2 Data Understanding draft; three modeling notebooks (Decision Tree, SVM, Gradient Boosting) with their result and prediction CSVs; References section additions ([1]–[10] from the proposal literature review). Owns the remaining work on the combined metrics table, feature-importance analysis, the Section 5 Evaluation writeup, the Section 6 Discussion and Conclusion, the Related Work section, slide-deck authoring (joint), speaker notes and rehearsal, and the Canvas submission.
+
+**Safia Khan** — EDA and preprocessing notebooks (`01_EDA`, `02_Preprocessing`) including the dataset-quality finding that 5,206 rows in the published UCI dataset are exact duplicates and must be removed before the train/test split; Naive Bayes modeling (Gaussian, Bernoulli, and Categorical variants) and kNN modeling with their result and prediction CSVs; Section 3 Data Preparation writeup; References [11] SMOTE and [12] imbalanced-learn. Owns the remaining work on confusion matrices, ROC/AUC plots, the IEEE reference list finalization, and code cleanup.
+
+Joint ownership: project proposal, slide deck, final-report integration, presentation delivery, and Canvas submission.
 
 ## Dataset
 
