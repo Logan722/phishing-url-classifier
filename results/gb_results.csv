@@ -1,0 +1,5 @@
+model,features,smote,best_params,cv_f1,accuracy,precision,recall,f1,roc_auc
+GradientBoosting,full,no_smote,"{'gb__learning_rate': 0.1, 'gb__max_depth': 5, 'gb__n_estimators': 200}",0.9538,0.9556,0.9678,0.9454,0.9564,0.9939
+GradientBoosting,full,smote,"{'gb__learning_rate': 0.1, 'gb__max_depth': 5, 'gb__n_estimators': 200}",0.9553,0.9496,0.9642,0.9371,0.9505,0.9934
+GradientBoosting,no_external,no_smote,"{'gb__learning_rate': 0.1, 'gb__max_depth': 5, 'gb__n_estimators': 200}",0.9502,0.9359,0.9506,0.9238,0.937,0.9886
+GradientBoosting,no_external,smote,"{'gb__learning_rate': 0.1, 'gb__max_depth': 5, 'gb__n_estimators': 100}",0.95,0.9342,0.9459,0.9255,0.9356,0.9875

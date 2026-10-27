@@ -1,0 +1,5 @@
+model,features,smote,best_params,cv_f1,accuracy,precision,recall,f1,roc_auc
+DecisionTree,full,no_smote,"{'tree__criterion': 'entropy', 'tree__max_depth': 12, 'tree__min_samples_leaf': 1, 'tree__min_samples_split': 10}",0.9332,0.9333,0.9428,0.9272,0.9349,0.976
+DecisionTree,full,smote,"{'tree__criterion': 'entropy', 'tree__max_depth': 20, 'tree__min_samples_leaf': 1, 'tree__min_samples_split': 10}",0.9332,0.9205,0.9506,0.8924,0.9206,0.9708
+DecisionTree,no_external,no_smote,"{'tree__criterion': 'entropy', 'tree__max_depth': 12, 'tree__min_samples_leaf': 1, 'tree__min_samples_split': 2}",0.9369,0.9154,0.9302,0.904,0.9169,0.9645
+DecisionTree,no_external,smote,"{'tree__criterion': 'entropy', 'tree__max_depth': 12, 'tree__min_samples_leaf': 1, 'tree__min_samples_split': 2}",0.9342,0.9188,0.9457,0.894,0.9191,0.9703
